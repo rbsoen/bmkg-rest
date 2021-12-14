@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "fast-xml-parser": "^4.0.0-beta.8"
+  },
+  "name": "bmkg_indie_rest",
+  "version": "0.0.1",
+  "description": "REST API bukan-resmi untuk data terbaru BMKG.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "R. Breil Soenoto",
+  "license": "MIT"
+}
