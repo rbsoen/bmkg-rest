@@ -9,7 +9,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon index.js"
+    "start": "node index.js",
+    "start-dev": "npx nodemon index.js"
   },
   "keywords": [
     "weather"
